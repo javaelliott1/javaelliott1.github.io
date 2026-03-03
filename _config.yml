@@ -3,10 +3,6 @@ description: My portfolio and data science projects
 baseurl: "" 
 url: "https://javaelliott1.github.io"
 
-<<<<<<< HEAD
-=======
-# Minimal Mistakes theme
->>>>>>> 03d300b2261158bb97d02ad4942fe51976de0f2b
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
