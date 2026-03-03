@@ -5,7 +5,8 @@ url: "https://javaelliott1.github.io"
 
 # Minimal Mistakes theme
 theme: jekyll-theme-minimal
-
+plugins:
+  - jekyll-feed
 # Navigation
 nav:
   - title: About
