@@ -13,3 +13,8 @@ I'm a data scientist and applied statistician passionate about causal inference,
 - **Pop Hits and Hard Times** – Discovered relationships between economic sentiment and escapist themes in popular music using R and web scraping.
 - **Presidential Language Analysis** – Used GPT-4 and R to analyze presidential rhetoric and visualize stance over time.
 - **NYC Mayoral Election Survey** – Designed and implemented a multilingual survey applying political behavior theory to analyze voter preferences.
+
+## Explore More
+
+- [About Me](/_pages/about.html)
+- [Projects](/_pages/projects.html)
