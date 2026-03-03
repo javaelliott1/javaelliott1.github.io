@@ -3,18 +3,6 @@ description: My portfolio and data science projects
 baseurl: "" 
 url: "https://javaelliott1.github.io"
 
-theme: jekyll-theme-minimal
+remote_theme: jekyll/minimal@v0.2.0
 plugins:
   - jekyll-feed
-# Navigation
-nav:
-  - title: About
-    url: /about/
-  - title: Experience
-    url: /experience/
-  - title: Projects
-    url: /projects/
-  - title: Skills
-    url: /skills/
-  - title: Contact
-    url: /contact/
