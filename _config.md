@@ -8,3 +8,15 @@ url: "https://javaelliott1.github.io"
 remote_theme: mmistakes/minimal-mistakes@4.30.0
 plugins:
   - jekyll-feed
+
+  nav:
+  - title: About
+    url: /about/
+  - title: Experience
+    url: /experience/
+  - title: Projects
+    url: /projects/
+  - title: Skills
+    url: /skills/
+  - title: Contact
+    url: /contact/
