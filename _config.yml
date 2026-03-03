@@ -1,5 +1,4 @@
-# _config.yml
-title: My GitHub Page
+title: Javae Elliott
 description: My awesome site
 baseurl: "" # leave empty for user sites
 url: "https://javaelliott1.github.io"
@@ -9,7 +8,8 @@ remote_theme: mmistakes/minimal-mistakes@4.30.0
 plugins:
   - jekyll-feed
 
-  nav:
+# Navigation
+nav:
   - title: About
     url: /about/
   - title: Experience
