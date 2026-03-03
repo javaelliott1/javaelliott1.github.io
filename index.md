@@ -1,10 +1,12 @@
 ---
-layout: home
-title: Your Name
+layout: default
+title: Javae Elliott
 permalink: /
-intro: >
-  I'm a data scientist and applied statistician passionate about causal inference, policy analysis, and computational social science. I leverage statistical methods, machine learning, and large-scale data to tackle challenging research questions.
 ---
+
+# Welcome
+
+I'm a data scientist and applied statistician passionate about causal inference, policy analysis, and computational social science. I leverage statistical methods, machine learning, and large-scale data to tackle challenging research questions.
 
 ## Featured Projects
 

@@ -3,6 +3,6 @@ description: My portfolio and data science projects
 baseurl: "" 
 url: "https://javaelliott1.github.io"
 
-remote_theme: jekyll/minimal@v0.2.0
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
