@@ -16,6 +16,5 @@ I'm a data scientist and applied statistician passionate about causal inference,
 
 ## Explore More
 
-- [About Me](/about/)
 - [Experience](/experience/)
 - [Projects](/projects/)

@@ -15,3 +15,5 @@ Designed a 28-item survey to study voter perceptions, policy priorities, and soc
 ### Presidential Language Analysis
 **Tools:** R, GPT-4  
 Tagged thousands of presidential speeches and rated stance on various topics. Created visualizations showing trends and key inflection points in rhetoric.
+
+- [Back to Home](/)
