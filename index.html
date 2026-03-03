@@ -3,36 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name</title>
+    <title>Javae Elliott | Data Scientist</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Hello, I'm Your Name</h1>
-        <p>Welcome to my GitHub website!</p>
+        <h1>Javae Elliott</h1>
+        <p>Data Science & Social Impact | New York University</p>
+        <nav>
+            <button class="tab-button active" data-tab="about">About</button>
+            <button class="tab-button" data-tab="resume">Resume</button>
+            <button class="tab-button" data-tab="projects">Projects</button>
+        </nav>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Write a short bio here. Your skills, interests, or projects.</p>
-    </section>
+    <main>
+        <!-- About Section -->
+        <section id="about" class="tab-content active">
+            <h2>About Me</h2>
+            <p>Javae Elliott grew up in Saratoga Springs, NY. He graduated from NYU in May 2023 with a B.A. in Computer Science and Data Science. Currently pursuing an M.S. in Applied Statistics for Social Science Research (2024–2026).</p>
+            <p>He is passionate about understanding systems and phenomena that shift culture and media, and using data to support well-defended decisions that positively impact communities.</p>
+            <p>Previous fellowships include work at the Harvard Kennedy School’s Computational Policy Lab, focusing on policy and social impact research using data science techniques.</p>
+        </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="https://github.com/yourusername/project1" target="_blank">Project 1</a></li>
-            <li><a href="https://github.com/yourusername/project2" target="_blank">Project 2</a></li>
-        </ul>
-    </section>
+        <!-- Resume Section -->
+        <section id="resume" class="tab-content">
+            <h2>Resume</h2>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: your.email@example.com</p>
-        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-    </section>
+            <h3>Education</h3>
+            <ul>
+                <li><strong>M.S. in Applied Statistics for Social Science Research</strong>, NYU Steinhardt, 2024 – Present, GPA 3.9</li>
+                <li><strong>B.A. in Computer Science and Data Science</strong>, NYU College of Arts & Sciences, 2019 – 2023, GPA 3.5</li>
+            </ul>
+
+            <h3>Experience</h3>
+            <ul>
+                <li><strong>Causal Inference Graduate Researcher</strong>, NYU (May 2025 – Present)
+                    <ul>
+                        <li>Benchmarked LLM solutions for the American Causal Inference Competition.</li>
+                        <li>Conducted simulations and cloud computing tests to improve the bartCause R package.</li>
+                    </ul>
+                </li>
+                <li><strong>PRIISM Fellow</strong>, Harvard Computational Policy Lab (Sept 2024 – May 2025)
+                    <ul>
+                        <li>Participated in seminars and research discussions on data science & policy.</li>
+                        <li>Developed web scrapers for ongoing experiments.</li>
+                    </ul>
+                </li>
+                <li><strong>Research Assistant</strong>, NYU (Jan 2023 – May 2023)
+                    <ul>
+                        <li>Gathered data on 2000+ city council members to study racial makeup effects on policy.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>Skills</h3>
+            <p>R, Python, C++, SQL, Bash, Stan, HTML/CSS | Frequentist & Bayesian Inference, Causal Inference, Multi-level Modeling, NLP | Tableau, Spark, Qualtrics, GCP, PyTorch, TensorFlow, Git/GitHub</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="tab-content">
+            <h2>Selected Projects</h2>
+            <ul>
+                <li><strong>Pop Hits and Hard Times (R, Web Scraping)</strong>
+                    <p>Analyzed how economic sentiment affects escapist themes in popular music over decades.</p>
+                </li>
+                <li><strong>NYC Mayoral Election Survey (Qualtrics, R)</strong>
+                    <p>Designed a multilingual 28-item survey on policy priorities and candidate perception. Applied stratified sampling and political behavior theory.</p>
+                </li>
+                <li><strong>Presidential Language Analysis (R, LLMs)</strong>
+                    <p>Parsed thousands of political speeches, rated stances with GPT-4, and created visualizations showing key inflection points in rhetoric.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2026 Your Name</p>
+        <p>© 2026 Javae Elliott | <a href="mailto:your.email@example.com">Email Me</a> | <a href="https://github.com/yourusername" target="_blank">GitHub</a></p>
     </footer>
+
+    <script>
+        const buttons = document.querySelectorAll('.tab-button');
+        const tabs = document.querySelectorAll('.tab-content');
+
+        buttons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class
+                buttons.forEach(b => b.classList.remove('active'));
+                tabs.forEach(t => t.classList.remove('active'));
+
+                // Activate selected
+                btn.classList.add('active');
+                document.getElementById(btn.dataset.tab).classList.add('active');
+            });
+        });
+    </script>
 </body>
 </html>
