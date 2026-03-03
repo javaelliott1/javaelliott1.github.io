@@ -18,4 +18,4 @@ permalink: /experience/
 **New York University** | Jan 2023 – May 2023  
 - Gathered data on 2000+ Ohio city council members to analyze the impact of racial composition on policy decisions.
 
-- [Back to Home](/)
+<p style="text-align: right;"><a href="/">← Back to Home</a></p>
