@@ -1,10 +1,9 @@
 title: Javae Elliott
-description: My awesome site
-baseurl: "" # leave empty for user sites
+description: My portfolio and data science projects
+baseurl: "" 
 url: "https://javaelliott1.github.io"
 
-# Minimal Mistakes theme
-remote_theme: mmistakes/minimal-mistakes@4.28.0
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
