@@ -29,7 +29,7 @@ permalink: /projects/
   <img src="/assets/images/mayoral-election.jpeg" alt="NYC Survey visualization" style="width:100%; border-radius:6px; margin-bottom:10px;">
   <p><strong>Tools:</strong> Qualtrics, R</p>
   <p>Designed a 28-item survey to study voter perceptions, policy priorities, and social media influence. Applied stratified random sampling and multilingual survey design.</p>
-  <p><a href="https://github.com/javaelliott1/nyc-mayoral-survey">View on GitHub →</a></p>
+  <p>Link to report at request</p>
 </div>
 
 <div class="project-card">
@@ -43,7 +43,7 @@ permalink: /projects/
 <div class="project-card">
   <h3>NYC Real Estate Market Analysis</h3>
   <img src="/assets/images/real-estate.png" alt="NYC Real Estate Visualization" style="width:100%; border-radius:6px; margin-bottom:10px;">
-  <p><strong>Tools:</strong> Python, Spark, Hive</p>
+  <p><strong>Tools:</strong> Python, Spark, SQL</p>
   <p>Analyzed the relationship between building complaints and unit sale prices across NYC boroughs. Highlighted the volatility of the Manhattan market compared to the relative steadiness of other boroughs.</p>
   
   <p><a href="https://github.com/javaelliott1/Big-Data-NYC-Analytics">View on GitHub →</a></p>
