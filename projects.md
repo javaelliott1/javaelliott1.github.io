@@ -7,6 +7,14 @@ permalink: /projects/
 # Projects
 
 ---
+<div class="project-card">
+ <h3>Equity Audit on Street Interventions</h3>
+ <img src="/assets/images/open-streets.jpeg" alt="Music project visualization" style="width:100%; border-radius:6px; margin-bottom:10px;">
+ <p><strong>Tools:</strong> R, GIS, NLP</p>
+ <p>Visualized cumulative distribution relative to neighborhood populations and highlighting seasonal availability. Created a tool that provides transparency, supports community awareness, and creates a data-informed foundation for equity-focused outreach and public space planning.</p>
+ 
+ Work-in-Progress
+</div>
 
 <div class="project-card">
   <h3>Pop Hits and Hard Times</h3>
@@ -32,5 +40,14 @@ permalink: /projects/
   <p><a href="https://github.com/javaelliott1/presidential-language-analysis">View on GitHub →</a></p>
 </div>
 
+<div class="project-card">
+  <h3>NYC Real Estate Market Analysis</h3>
+  <img src="/assets/images/real-estate.jpeg" alt="NYC Real Estate Visualization" style="width:100%; border-radius:6px; margin-bottom:10px;">
+  <p><strong>Tools:</strong> Python, Spark, Hive</p>
+  <p>Analyzed the relationship between building complaints and unit sale prices across NYC boroughs. Highlighted the volatility of the Manhattan market compared to the relative steadiness of other boroughs.</p>
+  
+  <p><a href="https://github.com/javaelliott1/Big-Data-NYC-Analytics">View on GitHub →</a></p>
+
+</div>
 
 <p style="text-align:right;"><a href="/">← Back to Home</a></p>
