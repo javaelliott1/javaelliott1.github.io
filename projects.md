@@ -41,7 +41,7 @@ permalink: /projects/
 
 <div class="project-card">
   <h3>Causal Educational Tool</h3>
-  <img src="/assets/images/causal-tool.jpeg" alt="Causal inference educational app visualization" style="width:100%; border-radius:6px; margin-bottom:10px;">
+  <img src="/assets/images/causal-tool.png" alt="Causal inference educational app visualization" style="width:100%; border-radius:6px; margin-bottom:10px;">
   <p><strong>Tools:</strong> R, JavaScript, Shiny, Causal Inference, Interactive Visualization</p>
   <p>Built an interactive educational platform for teaching causal inference concepts including treatment effects, predictive vs. causal reasoning, and Bayesian Additive Regression Trees (BART). Combined quizzes, visual walkthroughs, simulated datasets, and explanatory dashboards to make advanced causal inference methods more accessible and intuitive.</p>
   <p><a href="https://javaelliott1.github.io/causal-educational-tool.github.io/">View Project →</a></p>
