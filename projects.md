@@ -8,12 +8,11 @@ permalink: /projects/
 
 ---
 <div class="project-card">
- <h3>Equity Audit on Street Interventions</h3>
- <img src="/assets/images/open-streets.jpeg" alt="Music project visualization" style="width:100%; border-radius:6px; margin-bottom:10px;">
- <p><strong>Tools:</strong> R, GIS, NLP</p>
- <p>Visualized cumulative distribution relative to neighborhood populations and highlighting seasonal availability. Created a composite index that provides transparency, supports community awareness, and creates a data-informed foundation for equity-focused outreach and public space planning.</p>
- 
- Work-in-Progress
+  <h3>Spatial Equitability Analysis of NYC Public Spaces</h3>
+  <img src="/assets/images/open-streets.jpeg" alt="NYC public space accessibility visualization" style="width:100%; border-radius:6px; margin-bottom:10px;">
+  <p><strong>Tools:</strong> Python, GIS, Census Data (ACS), Network Analysis</p>
+  <p>Built a citywide accessibility model measuring how equitably New Yorkers can reach parks, plazas, waterfronts, schoolyards, and privately owned public spaces using walking and transit travel-time thresholds. Combined spatial analysis with demographic data to reveal how infrastructure, geography, and development patterns shape unequal access to public space across neighborhoods.</p>
+  <p><a href="https://javaelliott1.github.io/civic-analytics-map/">View Interactive Map →</a></p>
 </div>
 
 <div class="project-card">
@@ -34,10 +33,18 @@ permalink: /projects/
 
 <div class="project-card">
   <h3>Presidential Language Analysis</h3>
-  <img src="/assets/images/presidency-project.jpeg" alt="Presidency Project Image" style="width:100%; border-radius:6px; margin-bottom:10px;">
-  <p><strong>Tools:</strong> R, GPT-4</p>
-  <p>Tagged thousands of presidential speeches and rated stance on various topics. Created visualizations showing trends and key inflection points in rhetoric.</p>
-  <p><a href="https://github.com/javaelliott1/presidential-language-analysis">View on GitHub →</a></p>
+  <img src="/assets/images/presidency-project.jpeg" alt="Presidential rhetoric analysis visualization" style="width:100%; border-radius:6px; margin-bottom:10px;">
+  <p><strong>Tools:</strong> Python, GPT-5, NLP, Data Visualization</p>
+  <p>Analyzed presidential public addresses from the American Presidency Project to measure how presidents frame political issues and signal emotional intent. Used LLM-based topic segmentation and labeling to classify excerpts by topic, framing lens, and emotion, then visualized rhetorical differences across presidencies through topic-emotion mappings, framing patterns, and presidency similarity analysis.</p>
+  <p><a href="https://github.com/javaelliott1/presidential-language">View on GitHub →</a></p>
+</div>
+
+<div class="project-card">
+  <h3>Causal Educational Tool</h3>
+  <img src="/assets/images/causal-tool.jpeg" alt="Causal inference educational app visualization" style="width:100%; border-radius:6px; margin-bottom:10px;">
+  <p><strong>Tools:</strong> R, JavaScript, Shiny, Causal Inference, Interactive Visualization</p>
+  <p>Built an interactive educational platform for teaching causal inference concepts including treatment effects, predictive vs. causal reasoning, and Bayesian Additive Regression Trees (BART). Combined quizzes, visual walkthroughs, simulated datasets, and explanatory dashboards to make advanced causal inference methods more accessible and intuitive.</p>
+  <p><a href="https://javaelliott1.github.io/causal-educational-tool.github.io/">View Project →</a></p>
 </div>
 
 <div class="project-card">
@@ -66,7 +73,5 @@ permalink: /projects/
   
   <p><a href="https://github.com/javaelliott1/ADS-Nutritional-Label">View on GitHub →</a></p>
 </div>
-
-
 
 <p style="text-align:right;"><a href="/">← Back to Home</a></p>
