@@ -13,10 +13,12 @@ I'm a data scientist and applied statistician passionate about causal inference,
 ## Featured Project
 
 <div class="project-card">
-  <h4>Pop Hits and Hard Times</h4>
-  <img src="/assets/images/recession-pop.png" alt="Music project visualization" style="width:100%; border-radius:6px; margin-bottom:5px;">
-  <p>Analyzed economic sentiment and escapist themes in music using R and web scraping.</p>
-  <p><a href="https://github.com/javaelliott1/pop-hits-hard-times">GitHub</a></p>
+  <h3>Spatial Equitability Analysis of NYC Public Spaces</h3>
+  <img src="/assets/images/open-streets.jpeg" alt="NYC public space accessibility visualization" style="width:100%; border-radius:6px; margin-bottom:10px;">
+  <p><strong>Tools:</strong> Python, GIS, Census Data (ACS), Network Analysis</p>
+  <p>Built a citywide accessibility model measuring how equitably New Yorkers can reach parks, plazas, waterfronts, schoolyards, and privately owned public spaces using walking and transit travel-time thresholds. Combined spatial analysis with demographic data to reveal how infrastructure, geography, and development patterns shape unequal access to public space across neighborhoods.</p>
+  <p><a href="https://github.com/javaelliott1/civic_analytics">View Project →</a></p>
+  <p><a href="https://javaelliott1.github.io/civic-analytics-map/">View Interactive Map →</a></p>
 </div>
 
 ## Explore More
