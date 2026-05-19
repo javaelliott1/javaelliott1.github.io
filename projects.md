@@ -40,6 +40,14 @@ permalink: /projects/
   <p><a href="https://github.com/javaelliott1/presidential-language">View on GitHub →</a></p>
 </div>
 
+<div class="project-card"> 
+  <h3>Latent Film Preference Modeling</h3>
+  <img src="/assets/images/film-preferences.png" alt="Latent movie preference and recommendation system visualization" style="width:100%; border-radius:6px; margin-bottom:10px;">
+  <p><strong>Tools:</strong> R, Factor Analysis, K-Means Clustering, IRT, Recommendation Systems</p>
+  <p>Combined IMDb Non-Commercial and MovieLens datasets to analyze latent movie preferences and recommendation behavior across thousands of users and films. Applied exploratory factor analysis to identify interpretable genre dimensions such as blockbusters, documentaries, and crime/noir films, clustered users by viewing preferences using K-means, and implemented a graded response model to probabilistically predict whether users would “like” or “love” a film based on ordinal ratings.</p>
+  <p>Link to report at request</p>
+</div>
+
 <div class="project-card">
   <h3>Causal Educational Tool</h3>
   <img src="/assets/images/causal-tool.png" alt="Causal inference educational app visualization" style="width:100%; border-radius:6px; margin-bottom:10px;">
